@@ -4,11 +4,11 @@ const AboutMe = () => {
   return (
     <div className="min-h-[70vh] bg-[#FDFCF3] flex flex-col items-center justify-center py-10">
       <div className="max-w-4xl">
-        <p className="text-[120px] text-left font-black tracking-[-0.13em]">
+        <p className="text-[50px] lg:text-[120px] text-left font-black tracking-[-0.13em]">
           ABOUT ME
         </p>
 
-        <p className=" text-[25px] leading-10 bg-gray-100 p-10">
+        <p className=" text-[17px] lg:text-[25px] lg:leading-10 bg-gray-100 p-10">
           I&apos;m Adedamola Asaolu, a multidisciplinary 3D designer with a
           passion for blending innovation, style, and functionality. My work
           lives at the intersection of physical product design and digital
