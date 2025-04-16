@@ -10,7 +10,7 @@ const ViewJob = ({
 }) => {
   return (
     <div
-      className={`transition-opacity duration-300 right-0 bottom-0 h-screen w-screen justify-center items-center bg-black/60 backdrop-blur-xl ${
+      className={`transition-opacity  duration-300 right-0 bottom-0 h-screen w-full justify-center items-center bg-black/60 backdrop-blur-xl ${
         imageUrl
           ? "opacity-100 fixed top-0 left-0 z-50 flex"
           : "opacity-0 z-0 hidden"
@@ -23,7 +23,7 @@ const ViewJob = ({
         x
       </div>
 
-      <div className="bg-white rounded-lg relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] overflow-hidden">
+      <div className="bg-white rounded-lg absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[80%] h-[90vh] overflow-hidden">
         {imageUrl && (
           <Image
             src={imageUrl}

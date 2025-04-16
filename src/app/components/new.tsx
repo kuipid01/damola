@@ -74,7 +74,7 @@ const Works = () => {
               onClick={() => {
                 console.log("clicked");
 
-                setImageState("/jobs/jobe5.png");
+                setImageState("/jobs/job1.png");
               }}
               className="h-[550px] w-[450px] shadow shadow-gray-300 relative bg-red-300"
             >
@@ -87,7 +87,7 @@ const Works = () => {
             </div>
 
             <div
-              onClick={() => setImageState("/jobs/job6.png")}
+              onClick={() => setImageState("/jobs/job2.jpg")}
               className="h-[550px] w-[650px] shadow shadow-gray-300 relative bg-red-300"
             >
               <Image
