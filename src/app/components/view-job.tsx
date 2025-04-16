@@ -23,7 +23,7 @@ const ViewJob = ({
         x
       </div>
 
-      <div className="bg-white rounded-lg absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[80%] h-[90vh] overflow-hidden">
+      <div className="bg-white rounded-lg absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[80%] h-[80vh] lg:h-[90vh] overflow-hidden">
         {imageUrl && (
           <Image
             src={imageUrl}
