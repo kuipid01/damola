@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-satisfy: "Satisfy", "sans-serif";
+  --bg-primary:"#FBE35C"
 }
 
 @theme inline {
