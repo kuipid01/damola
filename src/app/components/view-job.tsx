@@ -18,7 +18,7 @@ const ViewJob = ({
     >
       <div
         onClick={() => setImageState(null)}
-        className="text-4xl cursor-pointer font-bold text-white absolute right-10 top-10"
+        className="text-4xl cursor-pointer font-bold text-white absolute lg:right-10 top-4 right-4 lg:top-10"
       >
         x
       </div>
